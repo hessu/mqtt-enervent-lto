@@ -1,0 +1,5 @@
+*~
+*.pem
+*.cfg
+__pycache__
+*.log
