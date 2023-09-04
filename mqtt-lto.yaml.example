@@ -1,0 +1,18 @@
+---
+
+debug: True
+logfile: mqtt-lto.log
+
+mqtt:
+    host: 127.0.0.1
+    port: 1883
+
+graphite:
+    host: graphite.example.com
+    port: 2301
+    tls_ca_file: cacert.pem
+    tls_key_file: client-keykey.pem
+    tls_cert_file: client-cert.pem
+
+lto_modbus:
+    tcp_addr: 192.168.15.22
